@@ -74,14 +74,16 @@ WSGI_APPLICATION = 'dcrm.wsgi.application'
 # Database
 # https://docs.djangoproject.com/en/4.2/ref/settings/#databases
 
+
+
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.mysql',
-        'NAME': 'crm115',
+        'NAME': 'railway',
         'USER':'root',
-        'PASSWORD':'Muukalainen115',
-        'HOST':'localhost',
-        'PORT':'3306'
+        'PASSWORD':'S7sc6gtI3JMXCD2JwIBx',
+        'HOST':'containers-us-west-176.railway.app',
+        'PORT':'6956'
 
     }
 }
